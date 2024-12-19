@@ -107,6 +107,7 @@ If you are looking for the Atom version of this repo, just go here: https://gith
 * db_truncate
 * db_update
 * db_where
+* db_trans
 
 #### Session
 
