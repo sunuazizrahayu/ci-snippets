@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+\$this->db->trans_start();
+${1:// your query}
+\$this->db->trans_complete();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>db_trans</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>CI - Active Record DB Transaction</description>
+</snippet>
